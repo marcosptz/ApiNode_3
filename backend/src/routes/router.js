@@ -36,7 +36,7 @@ const selectUsers = require('../controllers/usersController');
 // });
 
 router.get('/', (request, response, next) => {
-    response.send('It`s alive!')
+    response.send('Bem vindos!')
 });
 
 module.exports = router;
